@@ -1,0 +1,188 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding:0;
+}
+#sec2 h2, #sec3 h2{
+    font-family: 'Share Tech Mono', monospace;
+}
+#sec2 p, #sec3 p{
+    font-family: 'Share Tech Mono', monospace;
+}
+#sec5 h1 {
+    font-size: 60px !important;
+    font-family: 'Share Tech Mono', monospace;
+}
+#sec5 p {
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Share Tech Mono', monospace;
+}
+.bar {
+    width: 80px;
+    height: 90px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.socials p {
+    font-size: 36px;
+}
+
+section#sec3 {
+    background: black;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+section#sec3 h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.logo {
+    width: 330px;
+    height: 130px;
+}
+
+.cart {
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iphone {
+
+    width: 100%;
+    height: auto;
+}
+.socials p {
+    margin-right: 20px;
+}
+#sec1 h1 {
+    color: tomato;
+    font-size: 100px;
+}
+
+.socials div {
+    display: flex;
+}
+p {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+
+span {
+
+    font-weight: bold;
+}
+
+button {
+    width: 700px;
+    outline: none;
+    background-color: tomato;
+    color: white;
+    font-size: 100px;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 480px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#sec2, #sec5{
+    background: black;
+    color: white;
+    height: 100vh;
+}
+section#sec2, #sec5 h1 {
+    font-size: 40px;
+}
+#sec4{
+    width: 100vw;
+    height: 100vh;
+    animation: sec4 0.05s linear infinite;
+}
+#sec3{
+    display: none;
+}
+#sec2{
+    display: none;
+}
+#sec4{
+    display: none;
+}
+#sec5{
+    display: none;
+    height: 100vh;
+}
+.progress {
+    height: 30px;
+    /* width: 80%; */
+    /* max-width: 900px; */
+    /* margin-left: 2%; */
+    display: flex;
+    align-items: center;
+}
+.progressbar {
+    background: lime;
+    height: 100%;
+    width: 20%;
+}
+.progressTxt {
+    width: min-content;
+}
+
+.progressTxt p {
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+@keyframes sec4 {
+    from{background-color: white;}
+    to{background-color: black;}    
+}
+@keyframes widthCng {
+    from{width: 0%;}
+    to{width: 100%;}
+}
+#ap {
+    height: max-content;
+    width: max-content;
+    font-size: 43px;
+    vertical-align: middle;
+    background: black;
+    border: 4px solid lime;
+    color: lime;
+    border-radius: 0px;
+    padding: 6px 17px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+input#url {
+    font-size: 40px;
+    background: black;
+    color: lime;
+    border: 1px solid lime;
+    padding: 9px 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
